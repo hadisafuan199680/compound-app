@@ -15,13 +15,13 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Login">
         <Stack.Screen name="Login" component={LoginPage} />
-        <Stack.Screen name="NOTIS BARU" component={FormPage} />
+        <Stack.Screen name="NOTIS_BARU" component={FormPage} />
         <Stack.Screen
-          name="GAMBAR SEBELUM KOMPAUN"
+          name="GAMBAR_SEBELUM_KOMPAUN"
           component={ImageCapturePage}
         />
         <Stack.Screen
-          name="PERUNTUKKAN UNDANG-UNDANG"
+          name="PERUNTUKKAN_UNDANG_UNDANG"
           component={AnotherFormPage}
         />
         <Stack.Screen name="RUMUSAN" component={SummaryPage} />

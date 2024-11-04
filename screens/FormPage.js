@@ -24,7 +24,7 @@ export default function FormPage({ navigation }) {
   const [isLoading, setIsLoading] = useState(true);
 
   const handleSubmit = () => {
-    navigation.navigate("GAMBAR SEBELUM KOMPAUN", { formData });
+    navigation.navigate("GAMBAR_SEBELUM_KOMPAUN", { formData });
   };
 
   const verifyPlate = async () => {

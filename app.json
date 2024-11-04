@@ -19,7 +19,14 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.hadisafuan199680.handheld2"
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "package": "com.hadisafuan199680.handheld2",
+      "minSdkVersion": 21,
+      "targetSdkVersion": 33
     },
     "web": {
       "favicon": "./assets/favicon.png"

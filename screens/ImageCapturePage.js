@@ -40,7 +40,7 @@ export default function ImageCapturePage({ navigation, route }) {
   };
 
   const handleNext = () => {
-    navigation.navigate("PERUNTUKKAN UNDANG-UNDANG", { formData, images });
+    navigation.navigate("PERUNTUKKAN_UNDANG_UNDANG", { formData, images });
   };
 
   return (

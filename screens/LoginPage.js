@@ -26,7 +26,7 @@ export default function LoginPage({ navigation }) {
       password === predefinedUser.password
     ) {
       setError(""); // Clear any previous error
-      navigation.navigate("NOTIS BARU"); // Navigate to the next page (Form)
+      navigation.navigate("NOTIS_BARU"); // Navigate to the next page (Form)
     } else {
       setError("Invalid username or password! l"); // Show error message
     }
